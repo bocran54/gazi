@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> - Personal Info and Links</title>
+	<link rel="stylesheet" type="text/css" href="amponsah.css">
+	<footer>
+		<p>Page last modified: <span id="last-modified"></span></p>
+		<p>Page location: <span id="page-location"></span></p>
+	</footer>
+	<script>
+		 // Get the current date and time
+		 var currentDate = new Date();
+
+// Get the date of the last modification of the current document
+var lastModified = new Date(document.lastModified);
+
+// Get the current URL of the page
+var pageLocation = window.location.href;
+
+// Format the date and time strings
+var currentDateString = currentDate.toLocaleDateString();
+var currentTimeString = currentDate.toLocaleTimeString();
+var lastModifiedString = lastModified.toLocaleString();
+
+// Set the text content of the last-modified and page-location elements
+document.getElementById("last-modified").textContent = lastModifiedString;
+document.getElementById("page-location").textContent = pageLocation;
+	</script>
+	<img src="local_image.jpg" alt="Local Image">
+	<img src="https://www.example.com/external_image.jpg" alt="External Image">
+	<div id="location"></div>
+	<div id="last-modified"></div>
+	<style>
+		body {
+			background-color: hwb(0 95% 3%);
+			color: rgb(41, 94, 209);
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+		color: #0066cc;
+		font-size: 32px;
+		font-weight: bold;
+		font-style: italic;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	blockquote {
+		background-color: #0ea074;
+		border-left: 10px solid #ccc;
+		margin: 1.5em 10px;
+		padding: 0.5em 10px;
+	}
+	
+	ul {
+		list-style-type: disc;
+		margin: 1em 0;
+		padding: 0 0 0 40px;
+	}
+	
+	li {
+		margin: 0.5em 0;
+	}
+	
+	a {
+		color: #0066cc;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}
+	</style>
+</head>
+<body>
+	
+    <!-- Personal Info Section -->
+	<h1 style="text-align:center;">Amponsah Donkor John</h1>
+	<h2>Personal Info</h2>
+	<p>Hi, my name is Amponsah Donkor John, a software engineering and a programmer. I was  born and raised in Accra.</p>
+      <p>I'm from Kwahu in the Eastern part of Ghana. I'm also from a trib called "Akuapim", in other words a Akuapim.</p> 
+    <p>I'm fair in complexion and I'm 6.5 feet tall.I was born in 6th March 1984. </p>
+        
+    <!-- Hobbies Section -->
+<h2>Hobbies</h2>
+<p>  I would like to give out some of my hobbies. When I'm not busy working, I enjoy staying active and participating in a variety of sports.</p>
+<p>My  favorite sport is basketball,  and I enjoy playing pick-up games with my  friends on the weekends.</p>
+   <p>I also enjoy running and have completed several half marathons. In addition to basketball and running, I'm also an avid an of football and baseball.
+</p>
+    <p>I enjoy following my favorite teams and attending games whenever possible. I also enjoy watching other sports, such as tennis and soccer.</p>
+<p>I also enjoy traveling and exploring new cultures.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Artist</th>
+			<th>Album</th>
+			<th>Year</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>The Beatles</td>
+			<td>Abbey Road</td>
+			<td>1969</td>
+		</tr>
+		<tr>
+			<td>Radiohead</td>
+			<td>Kid A</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>Pink Floyd</td>
+			<td>Wish You Were Here</td>
+			<td>1975</td>
+		</tr>
+		<tr>
+			<td>Bob Dylan</td>
+			<td>Blonde on Blonde</td>
+			<td>1966</td>
+		</tr>
+		<tr>
+			<td>David Bowie</td>
+			<td>Heroes</td>
+			<td>1977</td>
+		</tr>
+	</tbody>
+</table>
+<!-- Favorite Links Section -->
+<h2>Favorite Links</h2>
+<p>Here are some of my favorite links:</p>
+<ul>
+	<li><a href="https://www.espn.com/">ESPN</a> </li>
+	<li><a href="https://www.nba.com/">NBA </a> </li>
+	<li><a href="#contact">Contact Me</a> - Jump to the contact section below.</li>
+</ul>
+<blockquote>"I don't care who you are." </blockquote>
+
+<h2>Top 5 Favorite Books</h2>
+<ul>
+	<li>1984 by George Orwell</li>
+	<li>The Hitchhiker's Guide to the Galaxy by Douglas Adams</li>
+	<li>To Kill a Mockingbird by Harper Lee</li>
+	<li>The Great Gatsby by F. Scott Fitzgerald</li>
+	<li>The Catcher in the Rye by J.D. Salinger</li>
+</ul>
+
+<h2>Top 3 Favorite Movies</h2>
+<ul>
+	<li>The Shawshank Redemption</li>
+	<li>The Godfather</li>
+	<li>Forrest Gump</li>
+</ul>
+
+<h2>Favorite TV Show</h2>
+<p><em>Breaking Bad</em></p>
+
+<h2>Top 5 Favorite Websites</h2>
+<ul>
+	<li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+	<li><a href="https://www.reddit.com/">Reddit</a></li>
+	<li><a href="https://www.youtube.com/">YouTube</a></li>
+	<li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+	<li><a href="https://github.com/">GitHub</a></li>
+</ul>
+<section id="links">
+	<h2>Links</h2>
+<ul>
+	<li><a href="https://www.out.ac.tz/">Open University of Tanzania</a></li>
+	<li><a href="https://www.out.ac.tz/faculty-of-ict/">ICT Department Home Page</a></li>
+	<li><a href="https://www.w3schools.com/">W3Schools</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
+	<li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+</ul>
+</body>
+
+<!-- Contact Section -->
+<h2 id="contact">Contact Me</h2>
+<p>If you have any questions or just want to say hello, feel free to type in the box below and I'll get back to you as soon as I can.</p>
+<form>
+	<label for="message">Message:</label><br>
+	<textarea id="message" name="message" rows="5" cols="50"></textarea><br>
+	<input type="submit" value="Send">
+</form>
+</html>
